@@ -13,7 +13,7 @@ from pydub import AudioSegment
 
 
 
-openai.api_key = "sk-or-vv-3677b56a5e03615c1b664481c9c37b42d8c101df676d6d11a509620d15fa1e7f" 
+openai.api_key = "" 
 openai.base_url = "https://api.vsegpt.ru:6070/v1/"
 model_ai = "openai/gpt-3.5-turbo"
 ADMIN = '821785013'
@@ -25,7 +25,7 @@ class TutorUtl:
     game = 'https://fin-quest.vercel.app/'
 
 
-bot = Bot(token='6819023389:AAEnad3O25CpcS7v2N4ePuYgmaTtyvAbhS8')
+bot = Bot(token='')
 storage = MemoryStorage()
 dp = Dispatcher(bot=bot, storage=storage)
 router = Router()
